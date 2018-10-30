@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
  
  
    s.name         = "WinnieFlyPod"
-   s.version      = "0.0.2"
+   s.version      = "0.0.3"
    s.summary      = "科大讯飞语音"
  
    s.description  = <<-DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
    
    s.platform     = :ios, "9.0"
  
-   s.source       = { :git => "https://github.com/DeveloperWinnie/WinnieFlyPod.git", :tag => '0.0.2' }
+   s.source       = { :git => "https://github.com/DeveloperWinnie/WinnieFlyPod.git", :tag => '0.0.3' }
  
    s.source_files = "Src/*.h", "Src/*.m"
  
