@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
  
    s.source       = { :git => "https://github.com/DeveloperWinnie/WinnieFlyPod.git", :tag => '0.0.3' }
  
-   s.source_files = "Src/*.h", "Src/*.m"
+   s.source_files = "WinnieFlyPod/Src/*.h", "Src/*.m"
  
    s.vendored_frameworks = "**/iflyMSC.framework", "**/iflyAIUI.framework"
  
