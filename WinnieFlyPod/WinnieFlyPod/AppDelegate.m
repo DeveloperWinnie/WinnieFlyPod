@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <iflyMSC/iflyMSC.h>
+#import <iflyAIUI/iflyAIUI.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //Set log level
+    [IFlySetting setLogFile:LVL_ALL];
+    
+    //Set whether to output log messages in Xcode console
+    [IFlySetting showLogcat:YES];
+    
+    //Set the local storage path of SDK
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+    NSString *cachePath = [paths objectAtIndex:0];
+    [IFlySetting setLogFilePath:cachePath];
+    
+    //Set APPID
+    NSString *initString = [[NSString alloc] initWithFormat:@"appid=5bc58336"];
+    
+    //Configure and initialize iflytek services.(This interface must been invoked in application:didFinishLaunchingWithOptions:)
+    [IFlySpeechUtility createUtility:initString];
+    
+    [IFlyAIUISetting setSaveDataLog:NO];
+    [IFlyAIUISetting setLogLevel:LV_INFO];
+    [IFlyAIUISetting setAIUIDir:cachePath];
+    [IFlyAIUISetting setMscDir:cachePath];
+    
     return YES;
 }
 
