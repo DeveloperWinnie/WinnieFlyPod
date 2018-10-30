@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DEC73A121887A7F00009CAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC73A021887A7F00009CAA /* AppDelegate.m */; };
+		2DEC73A421887A7F00009CAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC73A321887A7F00009CAA /* ViewController.m */; };
+		2DEC73A721887A7F00009CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC73A521887A7F00009CAA /* Main.storyboard */; };
+		2DEC73A921887A8000009CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC73A821887A8000009CAA /* Assets.xcassets */; };
+		2DEC73AC21887A8000009CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC73AA21887A8000009CAA /* LaunchScreen.storyboard */; };
+		2DEC73AF21887A8000009CAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC73AE21887A8000009CAA /* main.m */; };
+		2DEC73B921887A8000009CAA /* WinnieFlyPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC73B821887A8000009CAA /* WinnieFlyPodTests.m */; };
+		2DEC73C421887A8000009CAA /* WinnieFlyPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC73C321887A8000009CAA /* WinnieFlyPodUITests.m */; };
+		2DEC73D321887AA600009CAA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73D221887AA600009CAA /* libc++.tbd */; };
+		2DEC73D521887AB000009CAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73D421887AAF00009CAA /* CoreGraphics.framework */; };
+		2DEC73D721887AB500009CAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73D621887AB500009CAA /* QuartzCore.framework */; };
+		2DEC73D921887ABA00009CAA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73D821887ABA00009CAA /* AddressBook.framework */; };
+		2DEC73DB21887AC100009CAA /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73DA21887AC100009CAA /* Contacts.framework */; };
+		2DEC73DD21887AC900009CAA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73DC21887AC900009CAA /* CoreLocation.framework */; };
+		2DEC73DF21887AD400009CAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73DE21887AD400009CAA /* UIKit.framework */; };
+		2DEC73E121887ADD00009CAA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73E021887ADD00009CAA /* AudioToolbox.framework */; };
+		2DEC73E321887AE400009CAA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73E221887AE400009CAA /* CoreTelephony.framework */; };
+		2DEC73E521887AEC00009CAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73E421887AEC00009CAA /* Foundation.framework */; };
+		2DEC73E721887AF200009CAA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73E621887AF200009CAA /* SystemConfiguration.framework */; };
+		2DEC73E921887AF800009CAA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73E821887AF800009CAA /* AVFoundation.framework */; };
+		2DEC73EB21887AFF00009CAA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73EA21887AFF00009CAA /* libz.tbd */; };
+		2DEC73ED21887B2900009CAA /* iflyAIUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73EC21887B2900009CAA /* iflyAIUI.framework */; };
+		2DEC73EF21887B3500009CAA /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73EE21887B3400009CAA /* iflyMSC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DEC73B521887A8000009CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DEC739421887A7F00009CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DEC739B21887A7F00009CAA;
+			remoteInfo = WinnieFlyPod;
+		};
+		2DEC73C021887A8000009CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DEC739421887A7F00009CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DEC739B21887A7F00009CAA;
+			remoteInfo = WinnieFlyPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DEC739C21887A7F00009CAA /* WinnieFlyPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinnieFlyPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC739F21887A7F00009CAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DEC73A021887A7F00009CAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DEC73A221887A7F00009CAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DEC73A321887A7F00009CAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DEC73A621887A7F00009CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DEC73A821887A8000009CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DEC73AB21887A8000009CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DEC73AD21887A8000009CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DEC73AE21887A8000009CAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DEC73B421887A8000009CAA /* WinnieFlyPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinnieFlyPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC73B821887A8000009CAA /* WinnieFlyPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinnieFlyPodTests.m; sourceTree = "<group>"; };
+		2DEC73BA21887A8000009CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DEC73BF21887A8000009CAA /* WinnieFlyPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinnieFlyPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC73C321887A8000009CAA /* WinnieFlyPodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinnieFlyPodUITests.m; sourceTree = "<group>"; };
+		2DEC73C521887A8000009CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DEC73D221887AA600009CAA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2DEC73D421887AAF00009CAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DEC73D621887AB500009CAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2DEC73D821887ABA00009CAA /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		2DEC73DA21887AC100009CAA /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		2DEC73DC21887AC900009CAA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2DEC73DE21887AD400009CAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DEC73E021887ADD00009CAA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2DEC73E221887AE400009CAA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2DEC73E421887AEC00009CAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DEC73E621887AF200009CAA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2DEC73E821887AF800009CAA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2DEC73EA21887AFF00009CAA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2DEC73EC21887B2900009CAA /* iflyAIUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyAIUI.framework; path = WinnieFlyPod/iflyAIUI.framework; sourceTree = "<group>"; };
+		2DEC73EE21887B3400009CAA /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = WinnieFlyPod/iflyMSC.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DEC739921887A7F00009CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC73EF21887B3500009CAA /* iflyMSC.framework in Frameworks */,
+				2DEC73ED21887B2900009CAA /* iflyAIUI.framework in Frameworks */,
+				2DEC73EB21887AFF00009CAA /* libz.tbd in Frameworks */,
+				2DEC73E921887AF800009CAA /* AVFoundation.framework in Frameworks */,
+				2DEC73E721887AF200009CAA /* SystemConfiguration.framework in Frameworks */,
+				2DEC73E521887AEC00009CAA /* Foundation.framework in Frameworks */,
+				2DEC73E321887AE400009CAA /* CoreTelephony.framework in Frameworks */,
+				2DEC73E121887ADD00009CAA /* AudioToolbox.framework in Frameworks */,
+				2DEC73DF21887AD400009CAA /* UIKit.framework in Frameworks */,
+				2DEC73DD21887AC900009CAA /* CoreLocation.framework in Frameworks */,
+				2DEC73DB21887AC100009CAA /* Contacts.framework in Frameworks */,
+				2DEC73D921887ABA00009CAA /* AddressBook.framework in Frameworks */,
+				2DEC73D721887AB500009CAA /* QuartzCore.framework in Frameworks */,
+				2DEC73D521887AB000009CAA /* CoreGraphics.framework in Frameworks */,
+				2DEC73D321887AA600009CAA /* libc++.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC73B121887A8000009CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC73BC21887A8000009CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DEC739321887A7F00009CAA = {
+			isa = PBXGroup;
+			children = (
+				2DEC739E21887A7F00009CAA /* WinnieFlyPod */,
+				2DEC73B721887A8000009CAA /* WinnieFlyPodTests */,
+				2DEC73C221887A8000009CAA /* WinnieFlyPodUITests */,
+				2DEC739D21887A7F00009CAA /* Products */,
+				2DEC73D121887AA600009CAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DEC739D21887A7F00009CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC739C21887A7F00009CAA /* WinnieFlyPod.app */,
+				2DEC73B421887A8000009CAA /* WinnieFlyPodTests.xctest */,
+				2DEC73BF21887A8000009CAA /* WinnieFlyPodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DEC739E21887A7F00009CAA /* WinnieFlyPod */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC739F21887A7F00009CAA /* AppDelegate.h */,
+				2DEC73A021887A7F00009CAA /* AppDelegate.m */,
+				2DEC73A221887A7F00009CAA /* ViewController.h */,
+				2DEC73A321887A7F00009CAA /* ViewController.m */,
+				2DEC73A521887A7F00009CAA /* Main.storyboard */,
+				2DEC73A821887A8000009CAA /* Assets.xcassets */,
+				2DEC73AA21887A8000009CAA /* LaunchScreen.storyboard */,
+				2DEC73AD21887A8000009CAA /* Info.plist */,
+				2DEC73AE21887A8000009CAA /* main.m */,
+			);
+			path = WinnieFlyPod;
+			sourceTree = "<group>";
+		};
+		2DEC73B721887A8000009CAA /* WinnieFlyPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC73B821887A8000009CAA /* WinnieFlyPodTests.m */,
+				2DEC73BA21887A8000009CAA /* Info.plist */,
+			);
+			path = WinnieFlyPodTests;
+			sourceTree = "<group>";
+		};
+		2DEC73C221887A8000009CAA /* WinnieFlyPodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC73C321887A8000009CAA /* WinnieFlyPodUITests.m */,
+				2DEC73C521887A8000009CAA /* Info.plist */,
+			);
+			path = WinnieFlyPodUITests;
+			sourceTree = "<group>";
+		};
+		2DEC73D121887AA600009CAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC73EE21887B3400009CAA /* iflyMSC.framework */,
+				2DEC73EC21887B2900009CAA /* iflyAIUI.framework */,
+				2DEC73EA21887AFF00009CAA /* libz.tbd */,
+				2DEC73E821887AF800009CAA /* AVFoundation.framework */,
+				2DEC73E621887AF200009CAA /* SystemConfiguration.framework */,
+				2DEC73E421887AEC00009CAA /* Foundation.framework */,
+				2DEC73E221887AE400009CAA /* CoreTelephony.framework */,
+				2DEC73E021887ADD00009CAA /* AudioToolbox.framework */,
+				2DEC73DE21887AD400009CAA /* UIKit.framework */,
+				2DEC73DC21887AC900009CAA /* CoreLocation.framework */,
+				2DEC73DA21887AC100009CAA /* Contacts.framework */,
+				2DEC73D821887ABA00009CAA /* AddressBook.framework */,
+				2DEC73D621887AB500009CAA /* QuartzCore.framework */,
+				2DEC73D421887AAF00009CAA /* CoreGraphics.framework */,
+				2DEC73D221887AA600009CAA /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DEC739B21887A7F00009CAA /* WinnieFlyPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEC73C821887A8000009CAA /* Build configuration list for PBXNativeTarget "WinnieFlyPod" */;
+			buildPhases = (
+				2DEC739821887A7F00009CAA /* Sources */,
+				2DEC739921887A7F00009CAA /* Frameworks */,
+				2DEC739A21887A7F00009CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinnieFlyPod;
+			productName = WinnieFlyPod;
+			productReference = 2DEC739C21887A7F00009CAA /* WinnieFlyPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DEC73B321887A8000009CAA /* WinnieFlyPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEC73CB21887A8000009CAA /* Build configuration list for PBXNativeTarget "WinnieFlyPodTests" */;
+			buildPhases = (
+				2DEC73B021887A8000009CAA /* Sources */,
+				2DEC73B121887A8000009CAA /* Frameworks */,
+				2DEC73B221887A8000009CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DEC73B621887A8000009CAA /* PBXTargetDependency */,
+			);
+			name = WinnieFlyPodTests;
+			productName = WinnieFlyPodTests;
+			productReference = 2DEC73B421887A8000009CAA /* WinnieFlyPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DEC73BE21887A8000009CAA /* WinnieFlyPodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEC73CE21887A8000009CAA /* Build configuration list for PBXNativeTarget "WinnieFlyPodUITests" */;
+			buildPhases = (
+				2DEC73BB21887A8000009CAA /* Sources */,
+				2DEC73BC21887A8000009CAA /* Frameworks */,
+				2DEC73BD21887A8000009CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DEC73C121887A8000009CAA /* PBXTargetDependency */,
+			);
+			name = WinnieFlyPodUITests;
+			productName = WinnieFlyPodUITests;
+			productReference = 2DEC73BF21887A8000009CAA /* WinnieFlyPodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DEC739421887A7F00009CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Winnie;
+				TargetAttributes = {
+					2DEC739B21887A7F00009CAA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2DEC73B321887A8000009CAA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2DEC739B21887A7F00009CAA;
+					};
+					2DEC73BE21887A8000009CAA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2DEC739B21887A7F00009CAA;
+					};
+				};
+			};
+			buildConfigurationList = 2DEC739721887A7F00009CAA /* Build configuration list for PBXProject "WinnieFlyPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DEC739321887A7F00009CAA;
+			productRefGroup = 2DEC739D21887A7F00009CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DEC739B21887A7F00009CAA /* WinnieFlyPod */,
+				2DEC73B321887A8000009CAA /* WinnieFlyPodTests */,
+				2DEC73BE21887A8000009CAA /* WinnieFlyPodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DEC739A21887A7F00009CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC73AC21887A8000009CAA /* LaunchScreen.storyboard in Resources */,
+				2DEC73A921887A8000009CAA /* Assets.xcassets in Resources */,
+				2DEC73A721887A7F00009CAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC73B221887A8000009CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC73BD21887A8000009CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DEC739821887A7F00009CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC73A421887A7F00009CAA /* ViewController.m in Sources */,
+				2DEC73AF21887A8000009CAA /* main.m in Sources */,
+				2DEC73A121887A7F00009CAA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC73B021887A8000009CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC73B921887A8000009CAA /* WinnieFlyPodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC73BB21887A8000009CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC73C421887A8000009CAA /* WinnieFlyPodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DEC73B621887A8000009CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DEC739B21887A7F00009CAA /* WinnieFlyPod */;
+			targetProxy = 2DEC73B521887A8000009CAA /* PBXContainerItemProxy */;
+		};
+		2DEC73C121887A8000009CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DEC739B21887A7F00009CAA /* WinnieFlyPod */;
+			targetProxy = 2DEC73C021887A8000009CAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DEC73A521887A7F00009CAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DEC73A621887A7F00009CAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DEC73AA21887A8000009CAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DEC73AB21887A8000009CAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DEC73C621887A8000009CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DEC73C721887A8000009CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DEC73C921887A8000009CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WinnieFlyPod",
+				);
+				INFOPLIST_FILE = WinnieFlyPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winnieTest.WinnieFlyPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DEC73CA21887A8000009CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WinnieFlyPod",
+				);
+				INFOPLIST_FILE = WinnieFlyPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winnieTest.WinnieFlyPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DEC73CC21887A8000009CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WinnieFlyPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winnieTest.WinnieFlyPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinnieFlyPod.app/WinnieFlyPod";
+			};
+			name = Debug;
+		};
+		2DEC73CD21887A8000009CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WinnieFlyPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winnieTest.WinnieFlyPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinnieFlyPod.app/WinnieFlyPod";
+			};
+			name = Release;
+		};
+		2DEC73CF21887A8000009CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WinnieFlyPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winnieTest.WinnieFlyPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WinnieFlyPod;
+			};
+			name = Debug;
+		};
+		2DEC73D021887A8000009CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WinnieFlyPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winnieTest.WinnieFlyPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WinnieFlyPod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DEC739721887A7F00009CAA /* Build configuration list for PBXProject "WinnieFlyPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC73C621887A8000009CAA /* Debug */,
+				2DEC73C721887A8000009CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEC73C821887A8000009CAA /* Build configuration list for PBXNativeTarget "WinnieFlyPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC73C921887A8000009CAA /* Debug */,
+				2DEC73CA21887A8000009CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEC73CB21887A8000009CAA /* Build configuration list for PBXNativeTarget "WinnieFlyPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC73CC21887A8000009CAA /* Debug */,
+				2DEC73CD21887A8000009CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEC73CE21887A8000009CAA /* Build configuration list for PBXNativeTarget "WinnieFlyPodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC73CF21887A8000009CAA /* Debug */,
+				2DEC73D021887A8000009CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DEC739421887A7F00009CAA /* Project object */;
+}
