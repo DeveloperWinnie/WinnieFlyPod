@@ -30,6 +30,7 @@
 		2DEC73EB21887AFF00009CAA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73EA21887AFF00009CAA /* libz.tbd */; };
 		2DEC73ED21887B2900009CAA /* iflyAIUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73EC21887B2900009CAA /* iflyAIUI.framework */; };
 		2DEC73EF21887B3500009CAA /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73EE21887B3400009CAA /* iflyMSC.framework */; };
+		2DEC73F321887EDF00009CAA /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC73F121887EDE00009CAA /* ISRDataHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		2DEC73EA21887AFF00009CAA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		2DEC73EC21887B2900009CAA /* iflyAIUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyAIUI.framework; path = WinnieFlyPod/iflyAIUI.framework; sourceTree = "<group>"; };
 		2DEC73EE21887B3400009CAA /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = WinnieFlyPod/iflyMSC.framework; sourceTree = "<group>"; };
+		2DEC73F121887EDE00009CAA /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
+		2DEC73F221887EDE00009CAA /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,7 @@
 		2DEC739E21887A7F00009CAA /* WinnieFlyPod */ = {
 			isa = PBXGroup;
 			children = (
+				2DEC73F021887EDE00009CAA /* Src */,
 				2DEC739F21887A7F00009CAA /* AppDelegate.h */,
 				2DEC73A021887A7F00009CAA /* AppDelegate.m */,
 				2DEC73A221887A7F00009CAA /* ViewController.h */,
@@ -199,6 +203,15 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		2DEC73F021887EDE00009CAA /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC73F121887EDE00009CAA /* ISRDataHelper.m */,
+				2DEC73F221887EDE00009CAA /* ISRDataHelper.h */,
+			);
+			path = Src;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -332,6 +345,7 @@
 			files = (
 				2DEC73A421887A7F00009CAA /* ViewController.m in Sources */,
 				2DEC73AF21887A8000009CAA /* main.m in Sources */,
+				2DEC73F321887EDF00009CAA /* ISRDataHelper.m in Sources */,
 				2DEC73A121887A7F00009CAA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
